@@ -5,11 +5,11 @@ import {
   SignedIn,
   SignedOut,
   UserButton,
-} from "@clerk/nextjs"
-import { Loader } from "lucide-react"
-import Image from "next/image"
-import React from "react"
-import { Button } from "../ui/button"
+} from "@clerk/nextjs";
+import { Loader } from "lucide-react";
+import Image from "next/image";
+import React from "react";
+import { Button } from "../ui/button";
 
 export default function Header() {
   return (
@@ -45,5 +45,5 @@ export default function Header() {
         </ClerkLoaded>
       </div>
     </header>
-  )
+  );
 }
